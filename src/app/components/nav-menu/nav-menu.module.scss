@@ -1,0 +1,19 @@
+.wrapper{
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    .menu{
+        display: flex;
+        width: 100%;
+        height:56px;
+        padding:12px;
+        font-size: 22px;
+        background:blue;
+        align-items: center;
+        gap: 16px;
+        span{
+            font-size: 16px;
+        }
+    }
+}
